@@ -1,0 +1,237 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+.container1{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed;
+    stroke:rgb(31, 31, 31);
+    z-index: 1000;
+}
+#navbar{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+nav ul{
+    padding-left: 0px;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+    padding-left: 30px;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+}
+#homepage img{
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+#desc{
+    float: right;
+    width: 60%;
+    box-sizing: border-box;
+    color: #fff;
+}
+#homepage h1{
+    color: rgb(60, 218, 197);
+    font-size: 50px;
+    padding-top: 150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#homepage p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    width: 70%;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#homepage li{
+    padding-left: 50px;
+    display: inline;
+}
+#homepage a{
+    position: relative;
+    left: 45%;
+    top:450px;
+    padding-left: 100px;
+    filter: invert(64%) sepia(93%) saturate(302%) hue-rotate(121deg) brightness(96%) contrast(92%);  
+}
+#aboutme h1{
+    color: rgb(60, 218, 197);
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 10px;
+    left: 10%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+#aboutme h2{
+    color: rgb(60, 218, 197);
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 500px;
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+#aboutme li{
+    padding-left: 50px;
+    display:inline;
+}
+#aboutme a{
+    position: relative;
+    top:10px;
+    left:57%;
+    align-items: right;
+}
+#descabout p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    width: 80%;
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#schools{
+    position: absolute;
+    width: auto;
+
+}
+#descabout{
+    float: left;
+    width: 65%;
+    box-sizing: border-box;
+    color: #fff;
+}
+#descabout h1{
+    text-align: center;
+}
+#descabout p{
+    text-indent: 50px;
+}
+#skills h1{
+    color: rgb(60, 218, 197);
+    font-size: 100px;
+    padding-top: 100px;
+    margin: 0;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+#skills h2{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+#skills li{
+    padding-left: 275px;
+    padding-top: 10px;
+    display:inline-table;
+    font-size: 20px;
+    font-style:italic;
+    color: rgb(60, 218, 197);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+#skills h3{
+    float:right;
+    padding-top: 50px;
+    color:#fff;
+    padding-right: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:crimson;
+}
+#projects h1{
+    color: rgb(60, 218, 197);
+    font-size: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+#projects img{
+    position: static;
+    top: 15%;
+    left: 20%;
+}
+#projects h2{
+    padding-left: 50px;
+    font-size: 30px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#contacts h1{
+    color: rgb(60, 218, 197);
+    font-size: 100px;
+    margin: auto;
+    padding-top: 300px;
+    padding-left:400px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+#contacts h2{
+    padding-top: 10px;
+    padding-left:550px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(43, 151, 137);
+}
+#contacts li{
+    padding-left: 10px;
+    display:inline;
+}
+#contacts a{
+    position: relative;
+    left: 25%;
+    top:40px;
+    padding-left: 50px;
+    filter: invert(64%) sepia(93%) saturate(302%) hue-rotate(121deg) brightness(96%) contrast(92%);  
+}
+#navbar a:hover{
+    color: rgb(42, 175, 228);
+}
+#navbar a{
+    text-decoration: rgb(42, 175, 228);
+}
+#homepage{
+    background-color: #333;
+    height: 100%;
+}
+#aboutme{
+    background-color: rgb(121, 118, 118);
+    height: 100%;
+    justify-content: center;
+}
+#skills{
+    background-color: #333;
+    height: 100%;
+}
+#projects{
+    background-color: rgb(121, 118, 118);
+    height: 100%;
+}
+#contacts{
+    background-color: #333;
+    height: 100%;
+    
+}
+#mainfooter{
+    position: relative;
+    bottom: 0px;
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    top: 230px;
+    margin-bottom: auto;
+}
